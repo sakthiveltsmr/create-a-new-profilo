@@ -5,7 +5,6 @@
   text-align: center;
   height: 10%;
   max-height: fit-content;
-  background: url(../../Assert/Home/bg.jpg);
 }
 .profile-parent {
   display: flex;
