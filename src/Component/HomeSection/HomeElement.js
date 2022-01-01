@@ -58,7 +58,7 @@ export const HomeContent = styled.div`
 `;
 
 export const HomeH1 = styled.h1`
-  color: red;
+  color: orange;
   font-size: 48px;
   text-align: left; /* left */
 
