@@ -23,7 +23,7 @@ function HeroSection() {
             style={{
               fontWeight: "bold",
               fontFamily: "cursive",
-              color: "lightgreen",
+              color: "green",
             }}
           >
             <Typical

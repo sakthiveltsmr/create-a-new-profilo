@@ -28,7 +28,7 @@ function About() {
             </p>
 
             <a
-              className="btn btn-sm btn-success mt-3"
+              className="btn btn-sm btn-primary mt-3"
               rel="noreferrer"
               href={resume}
               target="_blank"
