@@ -1,0 +1,78 @@
+#contact {
+  background-color: #f13cca;
+  width: 100%;
+  height: calc(100vh - 48px) /* 100vh 72px*/;
+  box-sizing: border-box;
+  padding: 15px 5rem;
+  padding-top: 2.5rem;
+  color: white;
+  position: relative;
+}
+
+#contact h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 24px 0px;
+}
+.mail-contact {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contacts:hover {
+  background-color: rgb(46, 46, 45);
+  color: white;
+}
+.contacts {
+  width: 18rem;
+  border-radius: 10px;
+  background-color: rgb(179, 241, 167);
+  color: black;
+  margin-bottom: 20px;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.footer {
+  color: rgb(51, 19, 194);
+  background-color: honeydew;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* @media screen and (width:320px) and (height:568) {
+    #contact{
+        height: calc(150vh - 48px);
+        padding: 20px 10px;
+    }
+} */
+@media screen and (max-width: 715px) {
+  #contact {
+    height: calc(105vh - 48px);
+    padding: 20px 10px;
+  }
+}
+/* @media screen and (min-width:420px) and (min-height:640) {
+    #contact{
+        height: calc(80vh - 48px);
+        padding: 20px 10px;
+    }
+} */
+/* @media screen and (min-width:1000px) {
+    #contact{
+        height: auto;
+    }
+} */

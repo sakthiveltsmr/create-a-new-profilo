@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+
 import Me from "../../img/profile.jpg";
 import resume from "../../img/Resume.pdf.pdf";
 import { InfoContainer } from "./AboutElement";
