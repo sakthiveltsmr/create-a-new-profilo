@@ -1,5 +1,5 @@
 .skillsWrapper {
-  background: #f13cca;
+  background: #ec923e;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -13,7 +13,7 @@
   font-size: 48px;
   text-align: center;
   padding: 24px 0px;
-  color: rgb(238, 231, 231);
+  color: rgb(245, 9, 9);
 }
 .skillName {
   color: white;

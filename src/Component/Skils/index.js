@@ -11,7 +11,7 @@ function Skills() {
             <p>React</p>
             <ProgressBar
               completed={85}
-              backgroundColor="#01bf71"
+              bgColor="#0DF033"
               height="15px"
               isLableVisible={true}
               baseBgColor="#ffffff"
@@ -22,7 +22,7 @@ function Skills() {
             <p>JavaScript</p>
             <ProgressBar
               completed={80}
-              backgroundColor="#01bf71"
+              bgColor="#0DF033"
               height="15px"
               isLableVisible={true}
               baseBgColor="#ffffff"
@@ -33,7 +33,7 @@ function Skills() {
             <p>CSS</p>
             <ProgressBar
               completed={90}
-              backgroundColor="#01bf71"
+              bgColor="#0DF033"
               height="15px"
               isLableVisible={true}
               baseBgColor="#ffffff"
@@ -44,7 +44,7 @@ function Skills() {
             <p>HTML</p>
             <ProgressBar
               completed={90}
-              backgroundColor="#01bf71"
+              bgColor="#0DF033"
               height="15px"
               isLableVisible={true}
               baseBgColor="#ffffff"

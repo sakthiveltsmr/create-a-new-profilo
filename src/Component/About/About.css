@@ -1,5 +1,5 @@
 #about {
-  background-color: #f13cca;
+  background-color: #ec923e;
   width: 100%;
   height: /* calc(100vh - 48px) */ 100vh;
   overflow: hidden;
@@ -11,6 +11,7 @@
   font-size: 48px;
   text-align: center;
   padding: 24px 0px;
+  color: rgb(245, 9, 9);
 }
 
 /* .aboutContainer img{
