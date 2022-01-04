@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 export const Nav = styled.nav`
-  background: #000;
+  background: black;
   height: 70px;
   margin-top: -70px;
   display: flex;
@@ -44,7 +44,7 @@ export const Image = styled.img`
   width: 50px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: #bc0bf3 0px 0px 0px 3px;
+  box-shadow: #f60c24 0px 0px 0px 3px;
 `;
 export const MobileIcon = styled.div`
   display: none;

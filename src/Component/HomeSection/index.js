@@ -8,7 +8,7 @@ import {
   HomeH1,
   HomeP,
 } from "./HomeElement";
-import video from "../../img/video.mp4";
+import video from "../../img/Video.mp4";
 function HeroSection() {
   return (
     <HomeContainer id="home">
@@ -23,7 +23,7 @@ function HeroSection() {
             style={{
               fontWeight: "bold",
               fontFamily: "cursive",
-              color: "green",
+              color: "#20DC1A",
             }}
           >
             <Typical
