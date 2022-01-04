@@ -47,13 +47,13 @@ function NavBar({ toggle }) {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="skils"
+                to="skills"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Skils
+                Skills
               </NavLinks>
             </NavItem>
             <NavItem>
