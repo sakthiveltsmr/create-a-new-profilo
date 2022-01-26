@@ -3,20 +3,20 @@ import Typical from "react-typical";
 import {
   HomeContainer,
   HomeBg,
-  // VideoBg,
+  VideoBg,
   HomeContent,
   HomeH1,
   HomeP,
 } from "./HomeElement";
-// import video from "../../img/Video.mp4";
+import video from "../../img/Video.mp4";
 function HeroSection() {
   return (
     <HomeContainer id="home">
       <HomeBg>
-        {/* <VideoBg loop autoPlay>
+        <VideoBg loop autoPlay>
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
-        </VideoBg> */}
+        </VideoBg>
         {/* <VideoBg autoPlay loop muted src={video} type="video/mp4" /> */}
       </HomeBg>
       <HomeContent>
