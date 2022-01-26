@@ -1,5 +1,5 @@
 #contact {
-  background-color: #ec923e;
+  background-color: #5f9ea0;
   width: 100%;
   height: calc(100vh - 48px) /* 100vh 72px*/;
   box-sizing: border-box;
@@ -10,6 +10,7 @@
 }
 
 #contact h1 {
+  color: red;
   font-size: 40px;
   text-align: center;
   padding: 24px 0px;
@@ -27,7 +28,7 @@
 .contacts {
   width: 18rem;
   border-radius: 10px;
-  background-color: rgb(179, 241, 167);
+  background-color: rgb(243, 118, 201);
   color: black;
   margin-bottom: 20px;
 }
