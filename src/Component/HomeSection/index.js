@@ -13,7 +13,11 @@ function HeroSection() {
   return (
     <HomeContainer id="home">
       <HomeBg>
-        <VideoBg autoPlay loop muted src={video} type="video/mp4" />
+        <VideoBg loop autoPlay>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </VideoBg>
+        {/* <VideoBg autoPlay loop muted src={video} type="video/mp4" /> */}
       </HomeBg>
       <HomeContent>
         <HomeH1>Sakthivel R</HomeH1>
