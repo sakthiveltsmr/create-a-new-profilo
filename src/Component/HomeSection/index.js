@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import {
   HomeContainer,
   HomeBg,
-  VideoBg,
+  // VideoBg,
   HomeContent,
   HomeH1,
   HomeP,

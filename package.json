@@ -43,5 +43,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<!-- ### profilo deploye",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakthiveltsmr/create-a-new-profilo.git"
+  },
+  "author": "sakthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakthiveltsmr/create-a-new-profilo/issues"
+  },
+  "homepage": "https://github.com/sakthiveltsmr/create-a-new-profilo#readme"
 }
