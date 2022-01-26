@@ -8,7 +8,7 @@ import {
   HomeH1,
   HomeP,
 } from "./HomeElement";
-import video from "../../img/Video.mp4";
+import video from "../../img/mm.jpg";
 function HeroSection() {
   return (
     <HomeContainer id="home">
@@ -17,7 +17,8 @@ function HeroSection() {
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </VideoBg> */}
-        <VideoBg autoPlay loop muted src={video} type="video/mp4" />
+        <VideoBg src={video} alt="img" />
+        {/* <VideoBg autoPlay loop muted src={video} type="video/mp4" /> */}
       </HomeBg>
       <HomeContent>
         <HomeH1>Sakthivel R</HomeH1>
@@ -27,7 +28,7 @@ function HeroSection() {
             style={{
               fontWeight: "bold",
               fontFamily: "cursive",
-              color: "#20DC1A",
+              color: "	#ff00ff",
             }}
           >
             <Typical
