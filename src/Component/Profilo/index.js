@@ -15,6 +15,15 @@ export default function Profile() {
         </div>
         <div className="card-img-overlay">
           <div className="img-title">PostBlog</div>
+          <div className="img-description">
+            <p>
+              {" "}
+              Blog Application where the user can read, post, edit or delete
+              articles. Edit and delete can only be performed by the respective
+              article owner. Also, post can be categorized based on the tags or
+              author
+            </p>
+          </div>
         </div>
       </div>
     </div>
