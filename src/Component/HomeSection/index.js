@@ -8,7 +8,7 @@ import {
   HomeH1,
   HomeP,
 } from "./HomeElement";
-import video from "../../img/mm.jpg";
+import video from "../../img/front.png";
 function HeroSection() {
   return (
     <HomeContainer id="home">
@@ -23,7 +23,7 @@ function HeroSection() {
       <HomeContent>
         <HomeH1>Sakthivel R</HomeH1>
         <HomeP>
-          I'm a passionate {""}
+          <p style={{ color: "white" }}>I'm a passionate {""}</p>
           <span
             style={{
               fontWeight: "bold",
