@@ -10,6 +10,9 @@ export default function Profile() {
         <div className="card" data-aos="zoom-in-up">
           <img src={blog} alt="..." className="card-image-top" />
         </div>
+        <div className="title-heading">
+          <h5 className="cart-title">Blog Application</h5>
+        </div>
       </div>
     </div>
   );
