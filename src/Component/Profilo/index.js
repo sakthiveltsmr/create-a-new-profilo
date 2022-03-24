@@ -23,6 +23,37 @@ export default function Profile() {
               article owner. Also, post can be categorized based on the tags or
               author
             </p>
+            <div className="tech_used">
+              <i className="fab fa-react react"></i> &nbsp;
+              <i className="fab fa-node node"></i> &nbsp;
+              <SiIcons.SiMongodb className="mongodb" /> &nbsp;
+              <p className="codeLinks text-center pt-3">
+                <a
+                  className="bth btn-sm btn-success ml-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/sakthiveltsmr/full-stack-blog"
+                >
+                  Frontend <i className="fab fa-github"></i>
+                </a>
+                <a
+                  className="bth btn-sm btn-success ml-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/mkandanmk7/NodeJS-Blog-Application-Server"
+                >
+                  Backend <i className="fab fa-github"></i>
+                </a>
+                <a
+                  className="bth btn-sm btn-success ml-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://muthu-blog-application.netlify.app/"
+                >
+                  Website <i className="fad fa-link"></i>
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
