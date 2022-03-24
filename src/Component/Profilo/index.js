@@ -3,5 +3,14 @@ import "./Profile.css";
 import * as SiIcons from "react-icons/si";
 import blog from "../../img/blog.png";
 export default function Profile() {
-  return <div id="portfolio"></div>;
+  return (
+    <div id="portfolio">
+      <h1 className="logo-text">Portfolio</h1>
+      <div className="allProjects">
+        <div className="card" data-aos="zoom-in-up">
+          <img src={blog} alt="..." className="card-image-top" />
+        </div>
+      </div>
+    </div>
+  );
 }
