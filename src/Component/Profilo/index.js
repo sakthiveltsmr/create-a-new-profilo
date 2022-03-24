@@ -96,7 +96,7 @@ function Portfolio() {
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/mkandanmk7/NodeJS-Blog-Application-Server"
+                    href="https://github.com/sakthiveltsmr/Node-Blog"
                   >
                     Backend <i className="fab fa-github"></i>
                   </a>
