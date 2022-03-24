@@ -58,13 +58,13 @@ function NavBar({ toggle }) {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="profile"
+                to="portfolio"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Porofile
+                Project
               </NavLinks>
             </NavItem>
             <NavItem>

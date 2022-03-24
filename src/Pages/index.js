@@ -5,6 +5,7 @@ import Skills from "../Component/Skils";
 import Contact from "../Component/Contact";
 import HeroSection from "../Component/HomeSection";
 import Sidebar from "../Component/SideBar";
+import Portfolio from "../Component/Profilo";
 
 function Main() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ function Main() {
       <HeroSection />
       <About />
       <Skills />
+      <Portfolio />
       <Contact />
     </>
   );
