@@ -51,6 +51,39 @@ function Skills() {
               labelColor="#ffffff"
             />
           </div>
+          <div className="skillName">
+            <p>Node js</p>
+            <ProgressBar
+              completed={70}
+              bgColor="#0DF033"
+              height="15px"
+              isLableVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+          <div className="skillName">
+            <p>Express</p>
+            <ProgressBar
+              completed={65}
+              bgColor="#0DF033"
+              height="15px"
+              isLableVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+          <div className="skillName">
+            <p>Mongodb</p>
+            <ProgressBar
+              completed={70}
+              bgColor="#0DF033"
+              height="15px"
+              isLableVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import * as SiIcons from "react-icons/si";
 function Portfolio() {
   return (
     <div id="portfolio">
-      <h1 className="logo-text">Portfolio</h1>
+      <h1 className="logo-text">My Projects</h1>
       <div className="allProjects">
         {/* <div className="card" data-aos="zoom-in-up">
           <img src={ecom} className="card-img-top" alt="..." />

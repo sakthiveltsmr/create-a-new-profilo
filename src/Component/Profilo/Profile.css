@@ -1,5 +1,5 @@
 #portfolio {
-  background-color: #302f2f;
+  background-color: #5f9ea0;
   width: 100%;
   height: auto /* 100vh 72px*/;
   overflow: hidden;
@@ -10,7 +10,7 @@
 }
 
 #portfolio h1 {
-  color: #fff;
+  color: rgb(231, 12, 12);
   font-size: 40px;
   text-align: center;
   padding-top: 3rem;
