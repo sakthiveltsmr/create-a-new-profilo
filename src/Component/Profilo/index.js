@@ -104,7 +104,7 @@ function Portfolio() {
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://muthu-blog-application.netlify.app/"
+                    href="https://sakthi-blog-app.netlify.app/"
                   >
                     Website <i className="fad fa-link"></i>
                   </a>
