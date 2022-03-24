@@ -14,7 +14,7 @@ export default function Profile() {
           <h5 className="cart-title">Blog Application</h5>
         </div>
         <div className="card-img-overlay">
-          <div className="img-title">Blogzoid</div>
+          <div className="img-title">PostBlog</div>
         </div>
       </div>
     </div>
