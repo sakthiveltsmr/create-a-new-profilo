@@ -61,6 +61,7 @@ export const HomeH1 = styled.h1`
   color: red;
   font-size: 48px;
   text-align: left; /* left */
+  text-shadow: 2px 2px;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -76,6 +77,7 @@ export const HomeP = styled.p`
   fontweight: bold;
   font-size: 24px;
   text-align: left; /* left */
+
   /* max-width:60px; */
   @media screen and (max-width: 768px) {
     font-size: 24px;
