@@ -32,12 +32,17 @@ function HeroSection() {
             style={{
               fontWeight: "bold",
               fontFamily: "cursive",
-              color: "	#ff00ff",
+              color: "#ff00ff",
             }}
           >
             <Typical
               loop={Infinity}
-              steps={["Web Developer", 1000, "MERN Stack Developer", 2000]}
+              steps={[
+                "Front End Developer",
+                2000,
+                "MERN Stack Developer",
+                2000,
+              ]}
             />
           </span>{" "}
           {""}
