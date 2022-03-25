@@ -17,13 +17,17 @@ function HeroSection() {
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </VideoBg> */}
-        <VideoBg src={video} alt="img" />
+        <VideoBg
+          src="https://i.redd.it/b5u8b8dvhut71.jpg"
+          style={{ opacity: "0.8" }}
+          alt="img"
+        />
         {/* <VideoBg autoPlay loop muted src={video} type="video/mp4" /> */}
       </HomeBg>
       <HomeContent>
         <HomeH1>Sakthivel R</HomeH1>
         <HomeP>
-          <p style={{ color: "white" }}>I'm a passionate {""}</p>
+          <p style={{ color: "black" }}>I'm a passionate {""}</p>
           <span
             style={{
               fontWeight: "bold",
@@ -33,7 +37,7 @@ function HeroSection() {
           >
             <Typical
               loop={Infinity}
-              steps={["Web Developer", 1000, "Full Stack Developer", 2000]}
+              steps={["Web Developer", 1000, "MERN Stack Developer", 2000]}
             />
           </span>{" "}
           {""}
