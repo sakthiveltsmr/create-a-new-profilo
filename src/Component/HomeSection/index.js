@@ -32,7 +32,8 @@ function HeroSection() {
             style={{
               fontWeight: "bold",
               fontFamily: "cursive",
-              color: "#ff00ff",
+              color: "white",
+              textShadow: "2px 2px green",
             }}
           >
             <Typical
