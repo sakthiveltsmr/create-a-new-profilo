@@ -8,7 +8,7 @@ import {
   HomeH1,
   HomeP,
 } from "./HomeElement";
-import video from "../../img/front.png";
+import img from "../../img/bg.jpg";
 function HeroSection() {
   return (
     <HomeContainer id="home">
@@ -17,11 +17,7 @@ function HeroSection() {
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </VideoBg> */}
-        <VideoBg
-          src="https://i.redd.it/b5u8b8dvhut71.jpg"
-          style={{ opacity: "0.8" }}
-          alt="img"
-        />
+        <VideoBg src={img} style={{ opacity: "0.8" }} alt="img" />
         {/* <VideoBg autoPlay loop muted src={video} type="video/mp4" /> */}
       </HomeBg>
       <HomeContent>
