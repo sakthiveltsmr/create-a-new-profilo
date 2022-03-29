@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-// import { SkillsContainer } from "./SkillsElements";
 import ProgressBar from "@ramonak/react-progress-bar";
 function Skills() {
   return (
