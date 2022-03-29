@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+// import { SkillsContainer } from "./SkillsElements";
 import ProgressBar from "@ramonak/react-progress-bar";
 function Skills() {
   return (
@@ -11,53 +12,20 @@ function Skills() {
             <p>React</p>
             <ProgressBar
               completed={85}
-              bgColor="#0DF033"
+              bgColor="#04bf01"
               height="15px"
-              isLableVisible={true}
+              isLabelVisible={true}
               baseBgColor="#ffffff"
               labelColor="#ffffff"
             />
           </div>
           <div className="skillName">
-            <p>JavaScript</p>
+            <p>Node</p>
             <ProgressBar
               completed={80}
-              bgColor="#0DF033"
+              bgColor="#04bf01"
               height="15px"
-              isLableVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>CSS</p>
-            <ProgressBar
-              completed={90}
-              bgColor="#0DF033"
-              height="15px"
-              isLableVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>HTML</p>
-            <ProgressBar
-              completed={90}
-              bgColor="#0DF033"
-              height="15px"
-              isLableVisible={true}
-              baseBgColor="#ffffff"
-              labelColor="#ffffff"
-            />
-          </div>
-          <div className="skillName">
-            <p>Node js</p>
-            <ProgressBar
-              completed={70}
-              bgColor="#0DF033"
-              height="15px"
-              isLableVisible={true}
+              isLabelVisible={true}
               baseBgColor="#ffffff"
               labelColor="#ffffff"
             />
@@ -65,21 +33,58 @@ function Skills() {
           <div className="skillName">
             <p>Express</p>
             <ProgressBar
-              completed={65}
-              bgColor="#0DF033"
+              completed={75}
+              bgColor="#04bf01"
               height="15px"
-              isLableVisible={true}
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+
+          <div className="skillName">
+            <p>JavaScript</p>
+            <ProgressBar
+              completed={85}
+              bgColor="#04bf01"
+              height="15px"
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12" data-aos="flip-right">
+          <div className="skillName">
+            <p>MongoDB</p>
+            <ProgressBar
+              completed={70}
+              bgColor="#04bf01"
+              height="15px"
+              isLabelVisible={true}
+              baseBgColor="#ffffff"
+              labelColor="#ffffff"
+            />
+          </div>
+
+          <div className="skillName">
+            <p>HTML</p>
+            <ProgressBar
+              completed={80}
+              bgColor="#04bf01"
+              height="15px"
+              isLabelVisible={true}
               baseBgColor="#ffffff"
               labelColor="#ffffff"
             />
           </div>
           <div className="skillName">
-            <p>Mongodb</p>
+            <p>CSS</p>
             <ProgressBar
-              completed={70}
-              bgColor="#0DF033"
+              completed={80}
+              bgColor="#04bf01"
               height="15px"
-              isLableVisible={true}
+              isLabelVisible={true}
               baseBgColor="#ffffff"
               labelColor="#ffffff"
             />
@@ -89,4 +94,5 @@ function Skills() {
     </div>
   );
 }
+
 export default Skills;
