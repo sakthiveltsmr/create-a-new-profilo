@@ -39,23 +39,6 @@ function About() {
             </a>
           </div>
         </div>
-        {/* <InfoWrapper>
-                 <h2>About</h2> 
-                  <InfoRow imgStart={false}>
-                      <Column2>
-                          <ImgWrap>
-                              <Img src={Me} alt='My Image' />
-                          </ImgWrap>
-                      </Column2>
-                      <Column1>
-                          <TextWrapper>
-                              <TopLine>TopLine</TopLine>
-                              <Heading lightText={true}>Heading</Heading>
-                              <Subtitle darkText={false}>Subtitle</Subtitle>
-                          </TextWrapper>
-                      </Column1>
-                  </InfoRow>
-              </InfoWrapper> */}
       </InfoContainer>
     </>
   );
