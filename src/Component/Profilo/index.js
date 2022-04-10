@@ -124,10 +124,12 @@ function Portfolio() {
             <div className="img-description">
               <p>
                 {" "}
-                Application system follows complete authentication for login and
-                Register.User can view the fully responsive mobiles and systems
-                in this application and User can see the various Bike services.
-                User can choose the any one service in your bike and booking.
+                This Bike service application is done with complete
+                authentication system and various features like booking, payment
+                etc.This app has secured validation for Login and Registration
+                authentication.Users can add new Booking Services their Cart,
+                and also Delete the Booking Services on Cart.Users can Check out
+                Booking Services with its Details.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
